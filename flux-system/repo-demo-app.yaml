@@ -7,5 +7,5 @@ metadata:
 spec:
   interval: 30s
   ref:
-    branch: master
-  url: https://github.com/Mohit-Verma-1688/.git
+    branch: main
+  url: https://github.com/Mohit-Verma-1688/myapp.git
