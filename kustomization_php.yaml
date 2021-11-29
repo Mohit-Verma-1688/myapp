@@ -7,7 +7,7 @@ spec:
   interval: 11m0s
   sourceRef:
     kind: GitRepository
-    name: demo-app
+    name: app-demoapp
   path: ./php-frontend
   prune: true
   validation: client
