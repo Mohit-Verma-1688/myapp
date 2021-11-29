@@ -1,0 +1,12 @@
+kind: Kustomization
+metadata:
+  name: php-frontend
+  namespace: flux-system
+spec:
+  interval: 11m0s
+  sourceRef:
+    kind: GitRepository
+    name: demo-app
+  path: ./php-frontend
+  prune: true
+  validation: client
