@@ -4,7 +4,7 @@ metadata:
   name: php-frontend
   namespace: flux-system
 spec:
-  interval: 11m0s
+  interval: 3m0s
   sourceRef:
     kind: GitRepository
     name: app-demoapp
